@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  max-height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.main-container h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.wodContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+.wodContainer p {
+  color: white;
+  font-size: 20px;
+  margin: 15px 0;
+  width: 60%;
+  text-align: center;
+}
